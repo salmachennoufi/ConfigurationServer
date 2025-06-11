@@ -1,0 +1,15 @@
+spring:
+  application:
+    name:match-service
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/GestionMatch
+
+server:
+  port: 9090
+
+custom:
+  university:
+    name: Match Updated
+    location: Internet
